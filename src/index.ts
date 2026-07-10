@@ -42,5 +42,6 @@ import { updateComment } from "./04-comment/03-update-comment";
 import { deleteComment } from "./04-comment/04-delete-comment";
 import { userComments } from "./04-comment/05-user-comments";
 import { postComments } from "./04-comment/06-post-comments";
+import { commentFiltering } from "./04-comment/07-comment-filtering";
 
-postComments(11);
+commentFiltering("Fantastic");
