@@ -38,5 +38,6 @@ import { postOrdering } from "./03-post/08-post-ordering";
  *********************************/
 import { createComment } from "./04-comment/01-create-comment";
 import { findComments } from "./04-comment/02-find-comments";
+import { updateComment } from "./04-comment/03-update-comment";
 
-findComments(11);
+updateComment(51, "I learned a lot from this Prisma tutorial.");
