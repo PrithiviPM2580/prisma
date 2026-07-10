@@ -41,5 +41,6 @@ import { findComments } from "./04-comment/02-find-comments";
 import { updateComment } from "./04-comment/03-update-comment";
 import { deleteComment } from "./04-comment/04-delete-comment";
 import { userComments } from "./04-comment/05-user-comments";
+import { postComments } from "./04-comment/06-post-comments";
 
-userComments(1);
+postComments(11);
