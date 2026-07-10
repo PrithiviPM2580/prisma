@@ -17,5 +17,9 @@ import { userFiltering } from "./01-user/10-user-filtering";
  *********************************/
 import { createProfile } from "./02-profile/01-create-profile";
 import { findProfile } from "./02-profile/02-find-profile";
+import { updateProfile } from "./02-profile/03-update-profile";
 
-findProfile(1);
+updateProfile(12, {
+  bio: "Senior Backend Engineer",
+  github: "github.com/newusername",
+});
