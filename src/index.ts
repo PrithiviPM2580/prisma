@@ -27,5 +27,11 @@ import { userWithProfile } from "./02-profile/05-user-with-profile";
 import { createPost } from "./03-post/01-create-post";
 import { createManyPosts } from "./03-post/02-create-many-posts";
 import { findPost } from "./03-post/03-find-post";
+import { updatePost } from "./03-post/04-update-post";
 
-findPost(1);
+updatePost(1, {
+  title: "Advanced Prisma",
+  status: "PUBLISHED",
+  published: true,
+  views: 250,
+});
