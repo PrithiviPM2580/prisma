@@ -31,5 +31,6 @@ import { updatePost } from "./03-post/04-update-post";
 import { deletePost } from "./03-post/05-delete-post";
 import { postFiltering } from "./03-post/06-post-filtering";
 import { postPagination } from "./03-post/07-post-pagination";
+import { postOrdering } from "./03-post/08-post-ordering";
 
-postPagination();
+postOrdering();
