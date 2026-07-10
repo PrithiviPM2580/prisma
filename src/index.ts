@@ -29,5 +29,6 @@ import { createManyPosts } from "./03-post/02-create-many-posts";
 import { findPost } from "./03-post/03-find-post";
 import { updatePost } from "./03-post/04-update-post";
 import { deletePost } from "./03-post/05-delete-post";
+import { postFiltering } from "./03-post/06-post-filtering";
 
-deletePost(1);
+postFiltering();
