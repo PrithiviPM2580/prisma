@@ -1,0 +1,23 @@
+{
+  "name": "prisma",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "db:migrate":"prisma migrate dev",
+    "db:generate":"prisma generate",
+    "db:studio":"prisma studio",
+    "db:seed":"bun run src/seed.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "prisma": "^7.8.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@prisma/adapter-neon": "^7.8.0",
+    "@prisma/client": "^7.8.0"
+  }
+}
