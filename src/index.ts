@@ -40,5 +40,6 @@ import { createComment } from "./04-comment/01-create-comment";
 import { findComments } from "./04-comment/02-find-comments";
 import { updateComment } from "./04-comment/03-update-comment";
 import { deleteComment } from "./04-comment/04-delete-comment";
+import { userComments } from "./04-comment/05-user-comments";
 
-deleteComment(51);
+userComments(1);
