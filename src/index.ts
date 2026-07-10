@@ -21,4 +21,13 @@ import { updateProfile } from "./02-profile/03-update-profile";
 import { deleteProfile } from "./02-profile/04-delete-profile";
 import { userWithProfile } from "./02-profile/05-user-with-profile";
 
-userWithProfile(1);
+/*********************************
+ *        Post                    *
+ *********************************/
+import { createPost } from "./03-post/01-create-post";
+
+createPost(1, {
+  title: "Getting Started with Prisma",
+  content: "Prisma is a modern ORM for Node.js...",
+  status: "PUBLISHED",
+});
