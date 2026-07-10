@@ -7,5 +7,6 @@ import { findUserById } from "./01-user/03-find-user-by-id";
 import { findUserByEmail } from "./01-user/04-find-user-by-email";
 import { findAllUsers } from "./01-user/05-find-all-users";
 import { updateUserName } from "./01-user/06-update-user-name";
+import { updateUserRole } from "./01-user/07-update-user-role";
 
-updateUserName(5, "John Smith");
+updateUserRole("johndoe@gmail.com");
