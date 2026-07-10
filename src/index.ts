@@ -30,5 +30,6 @@ import { findPost } from "./03-post/03-find-post";
 import { updatePost } from "./03-post/04-update-post";
 import { deletePost } from "./03-post/05-delete-post";
 import { postFiltering } from "./03-post/06-post-filtering";
+import { postPagination } from "./03-post/07-post-pagination";
 
-postFiltering();
+postPagination();
