@@ -37,5 +37,6 @@ import { postOrdering } from "./03-post/08-post-ordering";
  *        Comment                 *
  *********************************/
 import { createComment } from "./04-comment/01-create-comment";
+import { findComments } from "./04-comment/02-find-comments";
 
-createComment(1, 11, "Excellent article about Prisma.");
+findComments(11);
