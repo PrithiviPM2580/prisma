@@ -1,5 +1,5 @@
 /*********************************
- *        User                   *                             *
+ *        User                   *
  *********************************/
 import { createUser } from "./01-user/01-create-user";
 import { createManyUsers } from "./01-user/02-create-many-users";
@@ -12,4 +12,13 @@ import { deleteUser } from "./01-user/08-delete-user";
 import { upsertUser } from "./01-user/09-upsert-user";
 import { userFiltering } from "./01-user/10-user-filtering";
 
-userFiltering();
+/*********************************
+ *        Profile                 *
+ *********************************/
+import { createProfile } from "./02-profile/01-create-profile";
+
+createProfile(11, {
+  bio: "Backend Developer",
+  website: "https://example.com",
+  github: "github.com/johndoe",
+});
