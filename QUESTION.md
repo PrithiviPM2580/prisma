@@ -2,89 +2,114 @@
 
 ```text
 prisma-practice/
-
+│
 ├── prisma/
 │   ├── schema.prisma
 │   ├── migrations/
-│   └── seed.js
+│   └── seed.ts
 │
 ├── src/
 │
-│   ├── generated/
-│
 │   ├── prisma/
-│   │      client.js
-│
-│   ├── 01-create/
-│   │      01-create-user.js
-│   │      02-create-profile.js
-│   │      03-create-post.js
-│   │      04-create-comment.js
-│   │      05-create-category.js
-│   │      06-create-user-with-profile.js
-│   │      07-create-user-with-posts.js
-│   │      08-create-post-with-comments.js
-│   │      09-create-category-with-posts.js
-│   │      10-create-many-users.js
-│
-│   ├── 02-read/
-│   │      01-findUnique.js
-│   │      02-findFirst.js
-│   │      03-findMany.js
-│   │      04-select.js
-│   │      05-include.js
-│   │      06-orderBy.js
-│   │      07-pagination.js
-│
-│   ├── 03-update/
-│   │      01-update-user.js
-│   │      02-update-post.js
-│   │      03-updateMany.js
-│   │      04-nested-update.js
-│
-│   ├── 04-delete/
-│   │      01-delete-user.js
-│   │      02-deleteMany.js
-│   │      03-nested-delete.js
-│
-│   ├── 05-filtering/
-│   │      equals.js
-│   │      contains.js
-│   │      startsWith.js
-│   │      endsWith.js
-│   │      in.js
-│   │      notIn.js
-│   │      AND.js
-│   │      OR.js
-│   │      NOT.js
-│
+│   │   └── client.ts
+│   │
+│   ├── 01-user/
+│   │   ├── 01-create-user.ts
+│   │   ├── 02-create-many-users.ts
+│   │   ├── 03-find-user-by-id.ts
+│   │   ├── 04-find-user-by-email.ts
+│   │   ├── 05-find-all-users.ts
+│   │   ├── 06-update-user-name.ts
+│   │   ├── 07-update-user-role.ts
+│   │   ├── 08-delete-user.ts
+│   │   ├── 09-upsert-user.ts
+│   │   ├── 10-user-filtering.ts
+│   │   └── README.md
+│   │
+│   ├── 02-profile/
+│   │   ├── 01-create-profile.ts
+│   │   ├── 02-find-profile.ts
+│   │   ├── 03-update-profile.ts
+│   │   ├── 04-delete-profile.ts
+│   │   ├── 05-user-with-profile.ts
+│   │   └── README.md
+│   │
+│   ├── 03-post/
+│   │   ├── 01-create-post.ts
+│   │   ├── 02-create-many-posts.ts
+│   │   ├── 03-find-post.ts
+│   │   ├── 04-update-post.ts
+│   │   ├── 05-delete-post.ts
+│   │   ├── 06-post-filtering.ts
+│   │   ├── 07-post-pagination.ts
+│   │   ├── 08-post-ordering.ts
+│   │   └── README.md
+│   │
+│   ├── 04-comment/
+│   │   ├── 01-create-comment.ts
+│   │   ├── 02-find-comments.ts
+│   │   ├── 03-update-comment.ts
+│   │   ├── 04-delete-comment.ts
+│   │   └── README.md
+│   │
+│   ├── 05-category/
+│   │   ├── 01-create-category.ts
+│   │   ├── 02-find-category.ts
+│   │   ├── 03-update-category.ts
+│   │   ├── 04-delete-category.ts
+│   │   └── README.md
+│   │
 │   ├── 06-relations/
-│   │      connect.js
-│   │      disconnect.js
-│   │      connectOrCreate.js
-│   │      nestedCreate.js
-│   │      nestedUpdate.js
-│   │      nestedDelete.js
+│   │   ├── 01-user-profile.ts
+│   │   ├── 02-user-posts.ts
+│   │   ├── 03-post-comments.ts
+│   │   ├── 04-post-categories.ts
+│   │   ├── 05-nested-create.ts
+│   │   ├── 06-connect.ts
+│   │   ├── 07-disconnect.ts
+│   │   ├── 08-connect-or-create.ts
+│   │   └── README.md
+│   │
+│   ├── 07-filtering/
+│   │   ├── 01-equals.ts
+│   │   ├── 02-contains.ts
+│   │   ├── 03-starts-with.ts
+│   │   ├── 04-ends-with.ts
+│   │   ├── 05-in.ts
+│   │   ├── 06-not-in.ts
+│   │   ├── 07-and.ts
+│   │   ├── 08-or.ts
+│   │   ├── 09-not.ts
+│   │   ├── 10-select.ts
+│   │   ├── 11-include.ts
+│   │   ├── 12-order-by.ts
+│   │   ├── 13-take.ts
+│   │   ├── 14-skip.ts
+│   │   ├── 15-cursor.ts
+│   │   └── README.md
+│   │
+│   ├── 08-aggregation/
+│   │   ├── 01-count.ts
+│   │   ├── 02-avg.ts
+│   │   ├── 03-sum.ts
+│   │   ├── 04-min.ts
+│   │   ├── 05-max.ts
+│   │   ├── 06-group-by.ts
+│   │   └── README.md
+│   │
+│   ├── 09-transactions/
+│   │   ├── 01-basic-transaction.ts
+│   │   ├── 02-order-transaction.ts
+│   │   ├── 03-rollback.ts
+│   │   └── README.md
+│   │
+│   └── 10-raw-sql/
+│       ├── 01-query-raw.ts
+│       ├── 02-execute-raw.ts
+│       └── README.md
 │
-│   ├── 07-aggregation/
-│   │      count.js
-│   │      avg.js
-│   │      sum.js
-│   │      min.js
-│   │      max.js
-│   │      groupBy.js
-│
-│   ├── 08-transactions/
-│   │      transaction.js
-│   │      batch.js
-│
-│   ├── 09-raw-sql/
-│   │      queryRaw.js
-│   │      executeRaw.js
-│
-│   └── index.js
+└── package.json
 ```
-
 ---
 
 # PART 1 — CREATE QUESTIONS
