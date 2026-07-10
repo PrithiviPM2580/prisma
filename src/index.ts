@@ -16,9 +16,6 @@ import { userFiltering } from "./01-user/10-user-filtering";
  *        Profile                 *
  *********************************/
 import { createProfile } from "./02-profile/01-create-profile";
+import { findProfile } from "./02-profile/02-find-profile";
 
-createProfile(11, {
-  bio: "Backend Developer",
-  website: "https://example.com",
-  github: "github.com/johndoe",
-});
+findProfile(1);
