@@ -8,5 +8,6 @@ import { findUserByEmail } from "./01-user/04-find-user-by-email";
 import { findAllUsers } from "./01-user/05-find-all-users";
 import { updateUserName } from "./01-user/06-update-user-name";
 import { updateUserRole } from "./01-user/07-update-user-role";
+import { deleteUser } from "./01-user/08-delete-user";
 
-updateUserRole("johndoe@gmail.com");
+deleteUser(10);
