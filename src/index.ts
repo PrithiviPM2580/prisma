@@ -33,4 +33,9 @@ import { postFiltering } from "./03-post/06-post-filtering";
 import { postPagination } from "./03-post/07-post-pagination";
 import { postOrdering } from "./03-post/08-post-ordering";
 
-postOrdering();
+/*********************************
+ *        Comment                 *
+ *********************************/
+import { createComment } from "./04-comment/01-create-comment";
+
+createComment(1, 11, "Excellent article about Prisma.");
