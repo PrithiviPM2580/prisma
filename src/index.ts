@@ -10,11 +10,6 @@ import { updateUserName } from "./01-user/06-update-user-name";
 import { updateUserRole } from "./01-user/07-update-user-role";
 import { deleteUser } from "./01-user/08-delete-user";
 import { upsertUser } from "./01-user/09-upsert-user";
+import { userFiltering } from "./01-user/10-user-filtering";
 
-upsertUser("ashim@gmail.com", {
-  name: "Ashim Thapa",
-  email: "ashim@gmail.com",
-  age: 22,
-  city: "Butwal",
-  role: "USER",
-});
+userFiltering();
