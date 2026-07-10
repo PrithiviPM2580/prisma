@@ -39,5 +39,6 @@ import { postOrdering } from "./03-post/08-post-ordering";
 import { createComment } from "./04-comment/01-create-comment";
 import { findComments } from "./04-comment/02-find-comments";
 import { updateComment } from "./04-comment/03-update-comment";
+import { deleteComment } from "./04-comment/04-delete-comment";
 
-updateComment(51, "I learned a lot from this Prisma tutorial.");
+deleteComment(51);
