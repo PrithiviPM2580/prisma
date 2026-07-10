@@ -19,5 +19,6 @@ import { createProfile } from "./02-profile/01-create-profile";
 import { findProfile } from "./02-profile/02-find-profile";
 import { updateProfile } from "./02-profile/03-update-profile";
 import { deleteProfile } from "./02-profile/04-delete-profile";
+import { userWithProfile } from "./02-profile/05-user-with-profile";
 
-deleteProfile(11);
+userWithProfile(1);
