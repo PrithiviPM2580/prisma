@@ -44,5 +44,6 @@ import { userComments } from "./04-comment/05-user-comments";
 import { postComments } from "./04-comment/06-post-comments";
 import { commentFiltering } from "./04-comment/07-comment-filtering";
 import { commentPagination } from "./04-comment/08-comment-pagination";
+import { commentOrdering } from "./04-comment/09-comment-ordering";
 
-commentPagination(5, 5);
+commentOrdering();
