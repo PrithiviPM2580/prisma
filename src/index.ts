@@ -105,11 +105,12 @@ import { groupBy } from "./08-aggregation/06-group-by";
  *        Transcation             *
  *********************************/
 import { basicTranscation } from "./09-transcations/01-basic-transcation";
+import { rollback } from "./09-transcations/02-rollback";
 
-basicTranscation(
+rollback(
   {
-    name: "ram",
-    email: "ram@gmail.com",
+    name: "hari",
+    email: "hari@gmail.com",
     age: 21,
   },
   "Frontend Developer",
