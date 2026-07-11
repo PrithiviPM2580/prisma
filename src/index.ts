@@ -68,12 +68,13 @@ import { userPosts } from "./06-relations/02-user-posts";
 import { postComments as postCommentsRelation } from "./06-relations/03-post-comments";
 import { postCategories as postCategoriesRelation } from "./06-relations/04-post-categories";
 import { nestedCreate } from "./06-relations/05-nested-create";
+import { connect } from "./06-relations/06-connect";
 
-nestedCreate(
-  { name: "Sita", email: "sita@gmail.com", age: 21 },
-  "Frontend developer",
+connect(
   {
-    title: "My Prisma Journey",
-    content: "Prisma is a good orm and i like it.",
+    title: "Learning Prisma Relations",
+    content: "I am learning the prisma and it is good.",
   },
+  1,
+  { id1: 4, id2: 5 },
 );
