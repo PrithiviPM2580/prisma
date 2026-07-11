@@ -87,5 +87,6 @@ import { not } from "./07-filtering/09-not";
 import { select } from "./07-filtering/10-select";
 import { include } from "./07-filtering/11-include";
 import { orderBy } from "./07-filtering/12-order-by";
+import { take } from "./07-filtering/13-take";
 
-orderBy();
+take(5);
