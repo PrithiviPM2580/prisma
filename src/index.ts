@@ -95,5 +95,6 @@ import { cursor } from "./07-filtering/15-cursor";
  *        Aggregation             *
  *********************************/
 import { count } from "./08-aggregation/01-count";
+import { avg } from "./08-aggregation/02-avg";
 
-count();
+avg();
