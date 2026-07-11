@@ -56,5 +56,6 @@ import { updateCategory } from "./05-category/04-update-category";
 import { deleteCategory } from "./05-category/05-delete-category";
 import { categoryPosts } from "./05-category/06-category-posts";
 import { postCategories } from "./05-category/07-post-categories";
+import { categoryFiltering } from "./05-category/08-category-filtering";
 
-postCategories(2);
+categoryFiltering("Technology");
