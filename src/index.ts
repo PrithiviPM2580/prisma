@@ -55,5 +55,6 @@ import { findAllCategory } from "./05-category/03-find-all-category";
 import { updateCategory } from "./05-category/04-update-category";
 import { deleteCategory } from "./05-category/05-delete-category";
 import { categoryPosts } from "./05-category/06-category-posts";
+import { postCategories } from "./05-category/07-post-categories";
 
-categoryPosts("Technology");
+postCategories(2);
