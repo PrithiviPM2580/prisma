@@ -72,4 +72,9 @@ import { connect } from "./06-relations/06-connect";
 import { disconnect } from "./06-relations/07-disconnect";
 import { connectOrCreate } from "./06-relations/08-connect-or-create";
 
-connectOrCreate("Prisma Tips", "Prisma Tips which can help use.", "ORM", 1);
+/*********************************
+ *        Filtering               *
+ *********************************/
+import { equals } from "./07-filtering/01-equals";
+
+equals();
