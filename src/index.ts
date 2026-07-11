@@ -52,5 +52,6 @@ import { commentOrdering } from "./04-comment/09-comment-ordering";
 import { createCategory } from "./05-category/01-create-category";
 import { findCategory } from "./05-category/02-find-category";
 import { findAllCategory } from "./05-category/03-find-all-category";
+import { updateCategory } from "./05-category/04-update-category";
 
-findAllCategory();
+updateCategory(9, "Blockchain");
