@@ -58,5 +58,6 @@ import { categoryPosts } from "./05-category/06-category-posts";
 import { postCategories } from "./05-category/07-post-categories";
 import { categoryFiltering } from "./05-category/08-category-filtering";
 import { categoryPagination } from "./05-category/09-category-pagination";
+import { categoryOrdering } from "./05-category/10-category-ordering";
 
-categoryPagination(2, 2, 2);
+categoryOrdering();
