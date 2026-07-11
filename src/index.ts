@@ -85,5 +85,6 @@ import { and } from "./07-filtering/07-and";
 import { or } from "./07-filtering/08-or";
 import { not } from "./07-filtering/09-not";
 import { select } from "./07-filtering/10-select";
+import { include } from "./07-filtering/11-include";
 
-select();
+include(2);
