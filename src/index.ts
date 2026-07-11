@@ -53,5 +53,7 @@ import { createCategory } from "./05-category/01-create-category";
 import { findCategory } from "./05-category/02-find-category";
 import { findAllCategory } from "./05-category/03-find-all-category";
 import { updateCategory } from "./05-category/04-update-category";
+import { deleteCategory } from "./05-category/05-delete-category";
+import { categoryPosts } from "./05-category/06-category-posts";
 
-updateCategory(9, "Blockchain");
+categoryPosts("Technology");
