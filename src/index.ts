@@ -57,5 +57,6 @@ import { deleteCategory } from "./05-category/05-delete-category";
 import { categoryPosts } from "./05-category/06-category-posts";
 import { postCategories } from "./05-category/07-post-categories";
 import { categoryFiltering } from "./05-category/08-category-filtering";
+import { categoryPagination } from "./05-category/09-category-pagination";
 
-categoryFiltering("Technology");
+categoryPagination(2, 2, 2);
