@@ -101,4 +101,16 @@ import { min } from "./08-aggregation/04-min";
 import { max } from "./08-aggregation/05-max";
 import { groupBy } from "./08-aggregation/06-group-by";
 
-groupBy();
+/*********************************
+ *        Transcation             *
+ *********************************/
+import { basicTranscation } from "./09-transcations/01-basic-transcation";
+
+basicTranscation(
+  {
+    name: "ram",
+    email: "ram@gmail.com",
+    age: 21,
+  },
+  "Frontend Developer",
+);
