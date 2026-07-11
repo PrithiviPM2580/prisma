@@ -66,5 +66,6 @@ import { categoryOrdering } from "./05-category/10-category-ordering";
 import { userProfile } from "./06-relations/01-user-profile";
 import { userPosts } from "./06-relations/02-user-posts";
 import { postComments as postCommentsRelation } from "./06-relations/03-post-comments";
+import { postCategories as postCategoriesRelation } from "./06-relations/04-post-categories";
 
-postCommentsRelation(2);
+postCategoriesRelation(2);
