@@ -91,4 +91,9 @@ import { take } from "./07-filtering/13-take";
 import { skip } from "./07-filtering/14-skip";
 import { cursor } from "./07-filtering/15-cursor";
 
-cursor();
+/*********************************
+ *        Aggregation             *
+ *********************************/
+import { count } from "./08-aggregation/01-count";
+
+count();
