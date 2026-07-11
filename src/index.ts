@@ -64,5 +64,6 @@ import { categoryOrdering } from "./05-category/10-category-ordering";
  *        Relations               *
  *********************************/
 import { userProfile } from "./06-relations/01-user-profile";
+import { userPosts } from "./06-relations/02-user-posts";
 
-userProfile(1);
+userPosts(1);
