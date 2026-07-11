@@ -69,12 +69,6 @@ import { postComments as postCommentsRelation } from "./06-relations/03-post-com
 import { postCategories as postCategoriesRelation } from "./06-relations/04-post-categories";
 import { nestedCreate } from "./06-relations/05-nested-create";
 import { connect } from "./06-relations/06-connect";
+import { disconnect } from "./06-relations/07-disconnect";
 
-connect(
-  {
-    title: "Learning Prisma Relations",
-    content: "I am learning the prisma and it is good.",
-  },
-  1,
-  { id1: 4, id2: 5 },
-);
+disconnect(33, 4);
