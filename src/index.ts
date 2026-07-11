@@ -67,5 +67,13 @@ import { userProfile } from "./06-relations/01-user-profile";
 import { userPosts } from "./06-relations/02-user-posts";
 import { postComments as postCommentsRelation } from "./06-relations/03-post-comments";
 import { postCategories as postCategoriesRelation } from "./06-relations/04-post-categories";
+import { nestedCreate } from "./06-relations/05-nested-create";
 
-postCategoriesRelation(2);
+nestedCreate(
+  { name: "Sita", email: "sita@gmail.com", age: 21 },
+  "Frontend developer",
+  {
+    title: "My Prisma Journey",
+    content: "Prisma is a good orm and i like it.",
+  },
+);
