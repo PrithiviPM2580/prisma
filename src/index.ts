@@ -46,4 +46,9 @@ import { commentFiltering } from "./04-comment/07-comment-filtering";
 import { commentPagination } from "./04-comment/08-comment-pagination";
 import { commentOrdering } from "./04-comment/09-comment-ordering";
 
-commentOrdering();
+/*********************************
+ *        Category                *
+ *********************************/
+import { createCategory } from "./05-category/01-create-category";
+
+createCategory("Threejs");
