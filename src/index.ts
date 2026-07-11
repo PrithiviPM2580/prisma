@@ -70,5 +70,6 @@ import { postCategories as postCategoriesRelation } from "./06-relations/04-post
 import { nestedCreate } from "./06-relations/05-nested-create";
 import { connect } from "./06-relations/06-connect";
 import { disconnect } from "./06-relations/07-disconnect";
+import { connectOrCreate } from "./06-relations/08-connect-or-create";
 
-disconnect(33, 4);
+connectOrCreate("Prisma Tips", "Prisma Tips which can help use.", "ORM", 1);
