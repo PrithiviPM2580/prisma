@@ -89,5 +89,6 @@ import { include } from "./07-filtering/11-include";
 import { orderBy } from "./07-filtering/12-order-by";
 import { take } from "./07-filtering/13-take";
 import { skip } from "./07-filtering/14-skip";
+import { cursor } from "./07-filtering/15-cursor";
 
-skip();
+cursor();
