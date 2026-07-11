@@ -76,5 +76,6 @@ import { connectOrCreate } from "./06-relations/08-connect-or-create";
  *        Filtering               *
  *********************************/
 import { equals } from "./07-filtering/01-equals";
+import { contains } from "./07-filtering/02-contains";
 
-equals();
+contains("Prisma");
