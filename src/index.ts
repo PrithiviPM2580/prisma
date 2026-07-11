@@ -80,5 +80,6 @@ import { contains } from "./07-filtering/02-contains";
 import { startsWith } from "./07-filtering/03-starts-with";
 import { endsWith } from "./07-filtering/04-ends-with";
 import { inFilter } from "./07-filtering/05-in";
+import { notIn } from "./07-filtering/06-notIn";
 
-inFilter();
+notIn();
