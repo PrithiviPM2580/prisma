@@ -97,5 +97,6 @@ import { cursor } from "./07-filtering/15-cursor";
 import { count } from "./08-aggregation/01-count";
 import { avg } from "./08-aggregation/02-avg";
 import { sum } from "./08-aggregation/03-sum";
+import { min } from "./08-aggregation/04-min";
 
-sum();
+min();
