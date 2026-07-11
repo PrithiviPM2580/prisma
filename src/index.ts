@@ -99,5 +99,6 @@ import { avg } from "./08-aggregation/02-avg";
 import { sum } from "./08-aggregation/03-sum";
 import { min } from "./08-aggregation/04-min";
 import { max } from "./08-aggregation/05-max";
+import { groupBy } from "./08-aggregation/06-group-by";
 
-max();
+groupBy();
