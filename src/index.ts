@@ -60,4 +60,9 @@ import { categoryFiltering } from "./05-category/08-category-filtering";
 import { categoryPagination } from "./05-category/09-category-pagination";
 import { categoryOrdering } from "./05-category/10-category-ordering";
 
-categoryOrdering();
+/*********************************
+ *        Relations               *
+ *********************************/
+import { userProfile } from "./06-relations/01-user-profile";
+
+userProfile(1);
