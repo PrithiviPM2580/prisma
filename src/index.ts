@@ -83,5 +83,6 @@ import { inFilter } from "./07-filtering/05-in";
 import { notIn } from "./07-filtering/06-notIn";
 import { and } from "./07-filtering/07-and";
 import { or } from "./07-filtering/08-or";
+import { not } from "./07-filtering/09-not";
 
-or("gmail.com");
+not();
